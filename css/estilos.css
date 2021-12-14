@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #e6e6e6;
+    font-family: 'open sans';
+}
+header, .main, footer{
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+/*TITULO*/
+header h1 {
+    width:100%;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+    background: #112d4e;
+}
+/*MENU DE NAVEGACION*/
+nav ul{
+    list-style: none;
+    background: #528FD5;
+    text-align: center;
+    overflow: hidden;
+}   
+ul li{
+    display: inline-block;
+    padding: 20px;
+}
+ul li:hover{
+    background: #75ACEC;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+/*ARTICULOS*/
+.main .articles{
+    width: 100%;
+    margin-right: 10%;
+    float: left;
+}
+.main .articles article{
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+/*IMAGENES*/
+.main .articles .image img{
+    width: 90%;
+    display:block;
+    margin:auto;
+}
+/*PIE DE PAGINA*/
+footer{
+    background: #000;
+    color:#fff;
+    clear: both;
+    padding: 10px 0px;
+    text-align: center;
+}
+/*FORMULARIO*/
+form{
+    width: 50%;
+    border: 1px solid #ccc;
+    margin: 0;
+    padding: 20px;    
+}
+
+label{
+    font-size: 12px;
+    display: block;
+    width: 100%;
+}
+textarea{
+    resize: vertical;
+    max-height: 300px;
+    min-height: 100px;
+}
+input, textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+input:focus, textarea:focus{
+    border: 1px solid #1669c4;
+}
+input[type="submit"]{
+    margin-bottom:0;
+    background: #1668c4;
+    color: #fff;
+    border: none;
+}
+input[type="submit"]:hover{
+    background: #4a88f4;
+    cursor: pointer;
+}
